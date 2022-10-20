@@ -1,0 +1,5 @@
+Component: main
+Origin: thirdparty-debian
+Label: thirdparty-debian
+Architecture: amd64
+Description: Thirdparty APT Repository

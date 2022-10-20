@@ -1,0 +1,19 @@
+Origin: thirdparty-debian
+Label: thirdparty-debian
+Codename: focal
+Date: Thu, 20 Oct 2022 23:21:41 UTC
+Architectures: amd64
+Components: main
+Description: Thirdparty APT Repository
+MD5Sum:
+ ccf53b0bbdad7c09ffcabd03c27f6c14 4304 main/binary-amd64/Packages
+ 2b8f21182a6550a2652dcb492c1c2df4 1829 main/binary-amd64/Packages.gz
+ b0aacc64d503c7cd6ee5c19d3d6bad8e 126 main/binary-amd64/Release
+SHA1:
+ 9982f63bdefddb6f84d4bf01908c8fe552605e0b 4304 main/binary-amd64/Packages
+ 1ef7cc2b62194a7eb3a793d55bc78c8a7a7ae7e2 1829 main/binary-amd64/Packages.gz
+ 91efd93e001672544dfab95569b734c25c814cd9 126 main/binary-amd64/Release
+SHA256:
+ 3fd25f4927dd000fa08eb018011a3554bb5bc5591f6edb11da288a412a915214 4304 main/binary-amd64/Packages
+ 7c8736babc4a470b3abcc07c3da71609995fdf37e4821fe8ee568cbf6263a3e1 1829 main/binary-amd64/Packages.gz
+ 7818fc45c34c210690f092050f59fe0408a0e0e1142ce18271ec41e886d1cce4 126 main/binary-amd64/Release

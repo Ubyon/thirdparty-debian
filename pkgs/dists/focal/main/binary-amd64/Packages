@@ -1,0 +1,114 @@
+Package: libcityhash
+Source: cityhash
+Version: 0.0.0-1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 49
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: https://github.com/google/cityhash
+Priority: optional
+Section: libs
+Filename: pool/main/c/cityhash/libcityhash_0.0.0-1_amd64.deb
+Size: 13796
+SHA256: 2fe3d979c897b01b87982e99ba3b7e2d1df7acc6edaecad43ef29a518323b9a3
+SHA1: 5065e531b250835b87d4253f4d72674aba3a68c5
+MD5sum: c0bb6f418c5a981d1770719bb994e029
+Description: A family of hash functions for strings.
+ CityHash provides hash functions for strings.  The functions mix the
+ input bits thoroughly but are not suitable for cryptography.
+
+Package: libgoogle-glog0
+Source: google-glog
+Version: 0.4.0
+Architecture: amd64
+Maintainer: Google Inc <opensource@google.com>
+Installed-Size: 175
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgflags2.2, libstdc++6 (>= 5.2)
+Homepage: https://github.com/google/glog.git
+Priority: optional
+Section: libs
+Filename: pool/main/g/google-glog/libgoogle-glog0_0.4.0_amd64.deb
+Size: 59996
+SHA256: 823bccc27dbea6c930a6ddd12b5b82ec089ecb42c2c4868e91c2c4e8d9ee29ee
+SHA1: da2deec7848fe71d881b1b285f414bb5862db1fa
+MD5sum: 4dbc98872ddd881f1187f23c11204a2e
+Description: a library that implements application-level logging.
+ This library provides logging APIs based on C++-style streams and
+ various helper macros.
+
+Package: libgrpc++1
+Source: grpc
+Version: 1.24.0-0
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 8266
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgrpc7, libstdc++6 (>= 5.2)
+Multi-Arch: same
+Homepage: http://www.grpc.io/
+Priority: optional
+Section: libs
+Filename: pool/main/g/grpc/libgrpc++1_1.24.0-0_amd64.deb
+Size: 1290772
+SHA256: 2ed1a3daf06f7c8ca7caf17245cdd41b6a0531baaeaf5a9cecab60c7517b98e3
+SHA1: 8480987b8b962d8445a8624db9442a663c27cb52
+MD5sum: dc8bf0c0a14be8fdcdff307ef1540957
+Description: high performance general RPC framework
+ A modern, open source remote procedure call (RPC) framework that can
+ run anywhere. It enables client and server applications to communicate
+ transparently, and makes it easier to build connected systems.
+ .
+ This package provides the gRPC C++ bindings.
+
+Package: libgrpc7
+Source: grpc
+Version: 1.24.0-0
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 7553
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: http://www.grpc.io/
+Priority: optional
+Section: libs
+Filename: pool/main/g/grpc/libgrpc7_1.24.0-0_amd64.deb
+Size: 1559068
+SHA256: 7453d9942bce8abd95f2b53a3ee63b8c67a49730304d9f79361bda1ebfd52fbd
+SHA1: 356f79f1b515decfd7edd2c44bf615845b3159f3
+MD5sum: 16c5eca3a7ee673664441d3e0f103f6a
+Description: high performance general RPC framework
+ A modern, open source remote procedure call (RPC) framework that can
+ run anywhere. It enables client and server applications to communicate
+ transparently, and makes it easier to build connected systems.
+ .
+ This package provides the gRPC C bindings.
+
+Package: libprotobuf18
+Source: protobuf
+Version: 3.8.0
+Architecture: amd64
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2960
+Homepage: http://code.google.com/p/protobuf/
+Priority: extra
+Section: devel
+Filename: pool/main/p/protobuf/libprotobuf18_3.8.0_amd64.deb
+Size: 783084
+SHA256: f410ac8783caaad653ca921b3cb2fa81860f780e31984af0cbf8127641058421
+SHA1: b024754f994a0b2246b4ef09079a5d668bc10e3c
+MD5sum: 9c277d7eb6514e53e1b3235c0391402a
+Description: protocol buffers C++ library
+ Protocol buffers are a flexible, efficient, automated mechanism for
+ serializing structured data - similar to XML, but smaller, faster, and
+ simpler. You define how you want your data to be structured once, then you can
+ use special generated source code to easily write and read your structured
+ data to and from a variety of data streams and using a variety of languages.
+ You can even update your data structure without breaking deployed programs
+ that are compiled against the "old" format.
+ .
+ Google uses Protocol Buffers for almost all of its internal RPC protocols and
+ file formats.
+ .
+ This package contains the runtime library needed for C++ applications.
+Original-Maintainer: Iustin Pop <iustin@debian.org>
+
